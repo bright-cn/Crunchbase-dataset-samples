@@ -1,60 +1,66 @@
-# Crunchbase-数据集样本
+# Crunchbase-dataset-samples
 
-## 包含1001家Crunchbase公司数据的样本数据集
+<h2>包含 1001 家 Crunchbase 公司的示例数据集</h2>
 
-![Crunchbase 数据集头图](https://github.com/bright-cn/Crunchbase-dataset-samples/blob/main/crunchbase-datasets.PNG)
+<a href="https://www.bright.cn/products/datasets/crunchbase">
+   <img src="https://github.com/bright-cn/Crunchbase-dataset-samples/blob/main/crunchbase-datasets.png" alt="Crunchbase 数据集" />
+</a>
 
-一个包含超过1000家公司信息的Crunchbase数据集样本。该数据集使用 **Bright Data API** 提取。
+包含 1000 多家公司的 Crunchbase 数据集样本。该数据集使用 <b>Bright Data API</b> 提取。
 
-## 此免费数据集中包含的数据点：
+<h2>此免费数据集包含的数据点：</h2>
 
-- `id`: 公司唯一标识符  
-- `name`: 公司名称  
-- `url`: 公司相关的URL或网址  
-- `cb_rank`: Crunchbase分配给公司的排名  
-- `region`: 公司总部所在的大陆  
-- `about`: 公司概述或描述  
-- `industries`: 公司所属行业  
-- `operating_status`: 公司当前运营状态  
-- `company_type`: 公司类型（例如：私有、上市）  
-- `social_media_links`: 公司相关社交媒体的URL  
-- `founded_date`: 公司成立日期  
-- `num_employees`: 公司员工人数  
+* ```id```：公司的唯一标识符
+* ```name```：公司名称
+* ```url```：与公司关联的 URL 或网址
+* ```cb_rank```：Crunchbase 为公司分配的排名
+* ```region```：公司总部所在的大洲
+* ```about```：公司概况或描述
+* ```industries```：公司所属行业
+* ```operating_status```：公司当前的运营状态
+* ```company_type```：公司类型（例如私营、上市）
+* ```social_media_links```：与公司关联的社交媒体资料 URL
+* ```founded_date```：公司成立日期
+* ```num_employees```：公司员工人数
 
-以及更多数据点。
+以及更多内容。
 
-这是一个从 "Crunchbase 公司信息（公共数据）" 数据集中提取的样本子集，该完整数据集包含超过 **3,200,000家公司** 的信息。
+这是“Crunchbase 公司信息（公开数据）”数据集的示例子集，该数据集包含超过 <b>3,200,000 家公司</b>。
 
-可用数据集文件格式：**JSON、NDJSON、JSON Lines、CSV 或 Parquet。文件可选压缩为 .gz 格式**。
+可用的数据集文件格式：<b>JSON、NDJSON、JSON Lines、CSV 或 Parquet。还可选择将文件压缩为 .gz 格式</b>。
 
-数据集交付方式选项：**电子邮件、API 下载、Webhook、Amazon S3、Google Cloud Storage、Google Cloud PubSub、Microsoft Azure、Snowflake、SFTP**。
+数据集交付方式选项：<b>电子邮件、API 下载、Webhook、Amazon S3、Google Cloud Storage、Google Cloud Pub/Sub、Microsoft Azure、Snowflake、SFTP</b>。
 
-更新频率：**一次性、每日、每周、每月、每季度或定制频率**。
+更新频率：<b>单次、每日、每周、每月、每季度或自定义周期</b>。
 
-可根据需求提供数据点扩充服务：**按需请求**。
+可在已提取的数据点之外添加数据扩充服务：<b>根据需求提供。</b>
 
-**[获取完整的 Crunchbase 公司数据集](https://bright.cn/products/datasets/crunchbase)**。
+<b>[获取完整的 Crunchbase 公司数据集](https://www.bright.cn/products/datasets/crunchbase)</b>。
 
-## 其他可用的 Crunchbase 数据子集：
+<h2>其他可用的 Crunchbase 子集：</h2>
 
-- Crunchbase排名最高的公司  
-- Crunchbase最大的公司  
-- Crunchbase最新的公司  
+*   Crunchbase 排名最高的公司
+*   Crunchbase 规模最大的公司
+*   Crunchbase 最新成立的公司
 
-## Crunchbase数据集的应用场景
+<a href="https://www.bright.cn/products/datasets/crunchbase">
+   <img src="https://github.com/bright-cn/Crunchbase-dataset-samples/blob/main/dataset-promotions.png" alt="Crunchbase 媒体数据集" />
+</a>
 
-### 1. 竞争分析
+<h2>Crunchbase 数据集有哪些使用场景？</h2>
 
-利用公司信息数据监控公司增长，定位关键组织和专业人员，跟踪员工变动，并提高竞争情报和分析的效率。
+<h3>1. 竞争分析</h3>
 
-### 2. 市场趋势与增长
+利用公司特征数据监测企业增长、识别关键组织和专业人士、跟踪员工流动，并更高效地增强竞争情报与分析能力。
 
-评估公司增长和行业趋势，以支持数据驱动的决策。对对冲基金、风投和金融公司来说，Crunchbase数据集可显著提升投资分析能力。
+<h3>2. 市场趋势与增长</h3>
 
-### 3. B2B公司数据
+评估公司增长和行业趋势，为数据驱动型决策提供支持。对冲基金、风险投资机构和金融公司可以使用 Crunchbase 数据集显著提升投资分析能力。
 
-通过将高质量的公司和员工数据集成到您的CRM中，增强您的线索生成和销售情报能力，并配以全面的Crunchbase数据集。
+<h3>3. B2B 公司数据</h3>
 
-## 为学术研究人员和NGO提供免费访问的爬取工具和数据集
+将高质量的公司和员工数据集成到 CRM 中，并借助全面的 Crunchbase 数据集进行扩充，从而增强潜在客户开发和销售情报能力。
 
-Bright Initiative 为领先的学术院系和研究人员、致力于推动各种环境和社会事业的NGO和非营利组织提供 **[网页爬取API](https://bright.cn/products/web-scraper)** 和 **[现成数据集](https://bright.cn/products/datasets)**。您可以**[在此提交申请](https://brightinitiative.com)**。
+<h2>为学术研究人员和 NGO 免费提供网页爬虫工具及数据集</h2>
+
+Bright Initiative 为顶尖高校院系和研究人员，以及致力于推动各类环境与社会公益事业的 NGO 和 NPO 提供 Bright Data 的 <b>[网页爬虫工具 API](https://www.bright.cn/products/web-scraper)</b> 和 <b>[即用型数据集](https://www.bright.cn/products/datasets)</b>。你可以在<b>[此处](https://brightinitiative.com)</b>提交申请。
